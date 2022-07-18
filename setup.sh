@@ -11,3 +11,6 @@ headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
+
+echo PORT $PORT
+streamlit run  --server.port $PORT app.py
