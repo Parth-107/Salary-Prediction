@@ -58,7 +58,9 @@ def load_data():
 
     return df
 
-df = load_data()
+#df = load_data()
+df = pd.read_csv('Cleaned_Data.csv')
+#store = df.to_csv('Cleaned_Data.csv')
 
 def show_explore():
     st.title("Explore Software Engineer Salaries")
