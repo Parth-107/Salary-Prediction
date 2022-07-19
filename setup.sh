@@ -13,4 +13,4 @@ port = $PORT\n\
 " > ~/.streamlit/config.toml
 
 echo PORT $PORT
-streamlit run  --server.port $PORT app.py
+streamlit run --server.port $PORT app.py
